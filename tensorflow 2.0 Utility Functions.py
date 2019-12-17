@@ -73,4 +73,3 @@ def most_confused(n, model, valid_data, loss):
     sort = sort[-n:]
     return x_true[sort], y_true[sort], y_pred[sort], losses[sort]
     
-#lenet5 = 
